@@ -12,7 +12,7 @@ const Header = () => {
         <div className="p-5 bg-blue-500 text-white text-3xl font-bold">
             <div className="flex">
 				<div className="flex-grow flex">
-					<Link to="/home">
+					<Link to="/">
 						Fidget Spinner World
 					</Link>
 					<div className="mx-5">|</div>

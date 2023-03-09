@@ -27,6 +27,7 @@ export default function MainLayout() {
                 <div className="my-10">
                     <Routes>
                         <Route exact path="/" element={<HomeContent />} />
+                        <Route path="/home" element={<HomeContent />} />
                         <Route path="/product/:id" element={<PDPContent />} />
                         <Route path="/cart" element={<CartContent />} />
                     </Routes>

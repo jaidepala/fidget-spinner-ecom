@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import "remixicon/fonts/remixicon.css";
 
 // Cart Operations
-import { cart, clearCart } from './cart';
+import { cart, cartItems, clearCart, getCart } from './cart';
 import { currency } from 'home/products';
 
 const MiniCart = () => {
